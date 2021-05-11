@@ -7,6 +7,16 @@
 .cabecalhoPrincipal-nav{
     display: flex;
 }
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+    margin-top: 1%;
+}
+
 .rodapePrincipal-navMap-list{
     display: flex;
     flex-flow:column wrap;
