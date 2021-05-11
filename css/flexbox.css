@@ -48,7 +48,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .cabecalhoPrincipal-nav{
         flex-direction: column;
     }
@@ -57,5 +57,29 @@
         align-items: initial;
         text-align: center;
     }
-    
+    .conteudoPrincipal-cursos{
+        flex-direction: column;
+    }
+    .conteudoPrincipal-cursos-link{
+        width: 100%;
+    }
+    .rodapePrincipal-navMap-list{
+        height: auto;
+    }
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodapePrincipal-contatoForm{
+        width: 100%;
+        
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+       justify-content: center; 
+    }
+    .rodapePrincipal-patrocinadores-list{
+        margin: 0;
+        width: 100%;
+    }
+   
 }
